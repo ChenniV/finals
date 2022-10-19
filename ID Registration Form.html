@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<h1>
+		UC Student ID System Form Registration System
+	</h1>
+	<h3>
+		Please fill out the form below:
+	</h3>
+	<div class="form">
+	<fieldset>
+	<form>
+		<label for="firstname">First Name:</label><br>
+		<input type="text" id="firstname" name="firstname" min="1" max= "20"required><br>
+		<label for="lastname">Last Name:</label><br>
+		<input type="text" id="lastname" name="lastname" min="1" max= "20" required><br>
+		<label for="idno">ID Number:</label><br>
+		<input type="number" id="idno" name="idno" min="9" maxlength="9" required><br>
+		<label for="adrress">Address:</label><br>
+		<textarea>Type your adrress here...</textarea>
+		<label for="birthday">Birthday:</label><br>
+		<input type="text" id="birthday" name="birthday" required><br>
+		<label for="course">Course:</label><br>
+		
+		<select id="course" name="course">
+			<option value="">BS INFO TECHNOLOGY</option>
+			<option value="">BS COMPUTER SCIENCE</option>
+			<option value="">BS DATA ANALYTICS</option>
+			<option value="">BS COMPUTER SCIENCE</option>
+			<option value="">BS CRIMINOLOGY</option>
+			<option value="">BS FORENSIC SCIENCE</option>
+			<option value="">BS INDUSTRIAL SECURITY MANAGEMENT</option>
+			<option value="">BA TEACHER EDUCATION</option>
+			<option value="">BS ACCOUNTANCY</option>
+			</select><br>
+
+		<label for="emrgncycontact">Emergency Contact Name:</label><br>
+		<input type="text" id="emrgncycontact" name="emrgncycontact" required><br>
+		<label for="emrgncynum">Emergency Contact Number:</label><br>
+		<input type="text" id="emrgncynum" name="emrgncynum" required><br>
+		<input type="submit" value="Submit" />
+		</fieldset>
+	</form>
+	</div>
+</body>
+</html>
+
+<style type="text/css">
+	h1, h3{
+		text-align: center;
+	}
+	body{
+		background-color: rgb(46, 105, 61);
+		font-family: Tahoma;
+		color:  white;
+	}
+	form {
+  		width: 60vw;
+  		max-width: 500px;
+  		min-width: 300px;
+  		margin: 0 auto;
+  		margin-right: 5%;
+  		padding-bottom: 2em;
+	}
+	fieldset {
+  		border: none;
+  		padding: 2rem 0;
+
+
+	}
+	label {
+  		display: block;
+
+	}
+	input{
+		width: 100%;
+		margin-bottom: 5%;
+		background-color: #FFFFFF;;
+		border-color: #FFFFFF;;
+
+	}
+	input[type="submit"] {
+  		display: block;
+ 		width: 60%;
+  		margin: 1em auto;
+  		height: 2em;
+  		font-size: 1.1rem;
+  		background-color: rgb(0, 75, 0);
+  		border-color: white;
+  		min-width: 300px;
+  		color: white;
+	}
+	textarea{
+		width: 100%;
+		min-height: 200%;
+		background-color: #FFFFFF;
+	}
+	select{
+		margin-bottom: 5%;
+	}
+	.form{
+		width: 100%;
+  		background-color: rgb(17, 64, 29);
+  		margin-left: auto;
+  		margin-right: auto;
+  		padding: 20px;
+  		max-width: 500px;
+	}
+</style>
