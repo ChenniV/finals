@@ -1,0 +1,17 @@
+CREATE TABLE IF NOT EXISTS `IdRegistration` (
+	`id` int(11) NOT NULL AUTO_INCREMENT,
+  	`firstname` varchar(255) NOT NULL,
+	`lastname` varchar(255) NOT NULL,
+  	`idNo` varchar(255) NOT NULL,
+  	`address` varchar(255) NOT NULL,
+  	`birthday` varchar(255) NOT NULL,
+	`course` varchar(255) NOT NULL,
+	`emrgncycontact` varchar(255) NOT NULL,
+	`emrgncynum` varchar(255) NOT NULL,
+  	`created` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+INSERT INTO `IdRegistration` (`id`, `firstname`, `lastname`, `idNo`, `address`, `birthday`, `course`, `emrgncycontact`, `emrgncynum`, `created`) VALUES
+(1, 'Xavier', 'Law', '202655014', 'Caloocan', 'birthday', 'course','emrgncycontact', 'emrgncynum', '2019-05-08 17:32:00'),
+(2, 'Tien', 'Yien', '202856672', 'Baguio', 'May 7, 2001', 'BS Information Technology','Lani C. Law', '09128976803', '2019-05-08 17:32:00'),
